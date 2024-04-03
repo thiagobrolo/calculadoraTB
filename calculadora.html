@@ -2,28 +2,25 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <script src="calculadora.js"></script>
 </head>
 <body>
-    <h1> calculadora Simples</h1>
-    <h2> insira valores para número 1 e 2  para realizar soma</h2>
-    <label for="num1">número 1: </label>
-    <input type="number" id="num1soma">
-    <label for="num2"> número 2: </label>
-    <input type="number" id="num2soma">
-    <button onclick="calcularsoma()">calcular</button>
-    <p id="resultadosoma">Resultado: </p>
+    <h1> Calculadora Simples</h1>
+    <h2>Insira valores para número 1 e 2 para realizar soma</h2>
+    <p id="resultado">Resultado:</p>
+    <label for="num1">Número 1: </label>
+    <input type="number" id="num1">
+    <label for="num2">Número 2: </label>
+    <input type="number" id="num2">
 
-    <h2>Insira Valores para número 1 e 2 para realizar subtração</h2>
-    <label for="num1">número 1: </label>
-    <input type="number" id="num1sub">
-    <label for="num2sub"> número 2: </label>
-    <input type="number" id="num2sub">
-    <button onclick="calcularsub()">calcular</button>
-    <p id="resultadosub">Resultado: </p>
+    <div>
+        <button onclick="calcularSoma()">+</button>
+        <button onclick="calcularSubtracao()">-</button>
+        <button onclick="calcularMultiplicacao()">*</button>
+        <button onclick="calcularDivisao()">/</button>
+    </div>
 
 </body>
 </html>
