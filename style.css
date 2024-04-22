@@ -1,15 +1,16 @@
 body{
-  background-color: rgb(48, 48, 53);
+  background-image: url(cars80-1200x801_7b6d9330.jpeg);
   text-align: center;
-  margin-top: 150px;
+  margin-top: 20px;
 }
 div{
-    background-color: rgb(192, 172, 172);
+    background-image: url(carros-2.jpg);
     width: 50%;
     margin-left: 25%;
     
 }
   input{
+    background-color: rgb(255, 0, 0);
     height: 70px;
     width: 50px;
     margin:2px;
@@ -20,5 +21,5 @@ div{
     width: 206px;
   }
   h1{
-    color: rgb(163, 154, 142);
+    color: rgb(0, 0, 0);
   }
